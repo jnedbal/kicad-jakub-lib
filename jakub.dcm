@@ -1,0 +1,191 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 23LVC1024
+D 1Mbit serial NVRAM
+K NVRAM, SPI, battery
+F 23LVC1024.pdf
+$ENDCMP
+#
+$CMP 74AHCT245
+D Octal BUS Transceivers, 3 State out
+K TTL BUS 3State
+F 74AHC_AHCT245.pdf
+$ENDCMP
+#
+$CMP 74AHCT367
+D Hex Bus Driver 3 state Out
+K TTL Buffer BUS 3State
+$ENDCMP
+#
+$CMP 74HC125
+D Quad buffer 3 State out
+K TTL buffer 3State
+$ENDCMP
+#
+$CMP ADG849
+D SPDT analog switch
+K analog switch, audio
+F ADG849.pdf
+$ENDCMP
+#
+$CMP ADP2381
+D 20 V, 6 A Synchronous Step-Down Regulator with Low-Side Driver
+K Voltage regulator, Power
+F ADP2381.pdf
+$ENDCMP
+#
+$CMP ARDUINO_DUE_SHIELD
+D Arduino Due Shield
+$ENDCMP
+#
+$CMP ARDUINO_MINI
+D Arduino Pro Mini v10
+$ENDCMP
+#
+$CMP AT42QT1011
+D One-channel Touch Sensor IC
+K Capacitive Touch
+F AT42QT1011.pdf
+$ENDCMP
+#
+$CMP BAR43C
+D Double diode Shottky (common-cathode)
+K DEV DIODE
+$ENDCMP
+#
+$CMP BAR43S
+D Double diode Shottky (Serie)
+K DEV DIODE
+$ENDCMP
+#
+$CMP DAC101S101
+D SPI 10-bit DAC
+K 10-Bit Micro Power, RRO Digital-to-Analog Converter
+F dac101s101.pdf
+$ENDCMP
+#
+$CMP DAC7744
+D 16-Bit, Quad Voltage Output DIGITAL-TO-ANALOG CONVERTER
+$ENDCMP
+#
+$CMP DRV103
+D PWM LOW-SIDE DRIVER (1.5A and 3A) for Solenoids, Coils, Valves, Heaters, and Lamps
+K PWM, power, driver
+F DRV103.pdf
+$ENDCMP
+#
+$CMP DS1338
+D I2C RTC
+K RTC, NV RAM, Real Time Clock
+F DS1338.pdf
+$ENDCMP
+#
+$CMP JMP
+D Virtual jumper to connect different grounds
+$ENDCMP
+#
+$CMP LMV321
+D Low-Voltage Rail-to-Rail Output Operational Amplifier
+$ENDCMP
+#
+$CMP LTC4071
+D Li-Ion/Polymer Shunt Battery Charger System with Low Battery Disconnect
+$ENDCMP
+#
+$CMP MCP4728
+D 12-Bit, Quad Digital-to-Analog Converter with EEPROM Memory
+K DAC, EEPROM
+$ENDCMP
+#
+$CMP NC7WZ04
+D Dual Inverter
+K Gate, inverter, inv, dual
+F NC7WZ04.pdf
+$ENDCMP
+#
+$CMP NMGxxxxSC
+D Isolated 2W Single Output DC/DC Converters
+K DC-DC converter
+$ENDCMP
+#
+$CMP NMLxxxxSC
+D Isolated 2W Single Output DC/DC Converters
+K DC-DC converter
+$ENDCMP
+#
+$CMP PCA9685
+D 16-channel, 12-bit PWM Fm+ I2C-bus LED controller
+F PCA9685.pdf
+$ENDCMP
+#
+$CMP REF30XX
+D High Precision, Low Drift, CMOS Voltage Reference
+K Voltage Reference, Power
+F REF30xx.pdf
+$ENDCMP
+#
+$CMP S25FL032P
+D 32 Mbit SPI FLASH
+K 32-Mbit CMOS 3.0 Volt Flash Memory with 104-MHz SPI (Serial Peripheral Interface) Multi I/O Bus
+F S25FL032P.pdf
+$ENDCMP
+#
+$CMP SN74ALVC164245
+D 16-BIT 2.5-V TO 3.3-V/3.3-V TO 5-V LEVEL-SHIFTING TRANSCEIVER WITH 3-STATE OUTPUTS
+$ENDCMP
+#
+$CMP Si8651
+D LOW POWER SIX-CHANNEL DIGITAL ISOLATOR
+$ENDCMP
+#
+$CMP Si8661
+D LOW POWER SIX-CHANNEL DIGITAL ISOLATOR
+$ENDCMP
+#
+$CMP TLV2371xDBV
+D Rail-to-Rail Output Operational Amplifier
+$ENDCMP
+#
+$CMP TPA301
+D Audio Amplifier
+K 350-mW MONO AUDIO POWER AMPLIFIER
+F tpa301.pdf
+$ENDCMP
+#
+$CMP TPS78225
+D 500nA Ultra-Low Quiescent Current 150mA Low-Dropout Linear Regulator
+$ENDCMP
+#
+$CMP TPS7A3001
+D IC, LDO, NEG, ADJ, 200MA, 8MSOP
+$ENDCMP
+#
+$CMP TPS7A4901
+D IC, LDO, ADJ, 150MA, 8MSOP
+$ENDCMP
+#
+$CMP XPPOWER_1OUT_1W_DIP
+D 2W DC-DC converter from XP Power
+K DC-DC converter
+F SF_IE.pdf
+$ENDCMP
+#
+$CMP XPPOWER_1OUT_2W_DIP
+D 2W DC-DC converter from XP Power
+K DC-DC converter
+F SF_IH.pdf
+$ENDCMP
+#
+$CMP XPPOWER_2OUT_2W_DIP
+D 2W DC-DC converter from XP Power
+K DC-DC converter
+F SF_IH.pdf
+$ENDCMP
+#
+$CMP XPPOWER_8W
+D 8W DC-DC converter from XP Power
+K DC-DC converter
+F SF_JCJ08-10.pdf
+$ENDCMP
+#
+#End Doc Library
