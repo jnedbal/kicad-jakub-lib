@@ -22,6 +22,10 @@ D Quad buffer 3 State out
 K TTL buffer 3State
 $ENDCMP
 #
+$CMP 74HCT1G125
+D Single Bus Buffer Gate With 3-State Output
+$ENDCMP
+#
 $CMP ADG849
 D SPDT analog switch
 K analog switch, audio
@@ -82,6 +86,10 @@ $ENDCMP
 #
 $CMP JMP
 D Virtual jumper to connect different grounds
+$ENDCMP
+#
+$CMP LM3480
+D 100-mA, SOT-23, Quasi Low-Dropout Linear Voltage Regulator
 $ENDCMP
 #
 $CMP LMV321
