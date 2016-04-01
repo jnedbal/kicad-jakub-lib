@@ -26,6 +26,10 @@ $CMP 74HCT1G125
 D Single Bus Buffer Gate With 3-State Output
 $ENDCMP
 #
+$CMP AD8000
+D 1.5 GHz ultrahigh speed op amp
+$ENDCMP
+#
 $CMP ADG849
 D SPDT analog switch
 K analog switch, audio
