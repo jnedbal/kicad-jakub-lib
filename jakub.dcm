@@ -22,6 +22,11 @@ D Quad buffer 3 State out
 K TTL buffer 3State
 $ENDCMP
 #
+$CMP 74HC1G02
+D Quad Nor2
+K TTL Nor2
+$ENDCMP
+#
 $CMP 74HCT1G125
 D Single Bus Buffer Gate With 3-State Output
 $ENDCMP
@@ -48,6 +53,10 @@ $ENDCMP
 #
 $CMP ARDUINO_MINI
 D Arduino Pro Mini v10
+$ENDCMP
+#
+$CMP ARDUINO_MKR1000
+D Powerful board that combines the functionality of the Zero and the Wi-Fi Shield
 $ENDCMP
 #
 $CMP AT42QT1011
