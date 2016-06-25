@@ -97,6 +97,11 @@ K RTC, NV RAM, Real Time Clock
 F DS1338.pdf
 $ENDCMP
 #
+$CMP DS1339
+D I2C Serial Real-Time Clock
+F DS1338.pdf
+$ENDCMP
+#
 $CMP JMP
 D Virtual jumper to connect different grounds
 $ENDCMP
@@ -113,9 +118,18 @@ $CMP LTC4071
 D Li-Ion/Polymer Shunt Battery Charger System with Low Battery Disconnect
 $ENDCMP
 #
+$CMP MCP15XX
+D 2.5V and 4.096V Voltage References
+K Voltage Reference, Power
+$ENDCMP
+#
 $CMP MCP4728
 D 12-Bit, Quad Digital-to-Analog Converter with EEPROM Memory
 K DAC, EEPROM
+$ENDCMP
+#
+$CMP MCP9700
+D Low-power linear active thermistor
 $ENDCMP
 #
 $CMP NC7WZ04
@@ -137,6 +151,15 @@ $ENDCMP
 $CMP PCA9685
 D 16-channel, 12-bit PWM Fm+ I2C-bus LED controller
 F PCA9685.pdf
+$ENDCMP
+#
+$CMP PT2272
+D 433MHz decoding receiver board 
+$ENDCMP
+#
+$CMP Q_NMOS_SSSGD
+D Transistor N-MOSFET LFPAK
+K nmos n-mos n-mosfet transistor
 $ENDCMP
 #
 $CMP REF30XX
