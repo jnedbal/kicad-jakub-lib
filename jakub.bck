@@ -157,6 +157,11 @@ $CMP PT2272
 D 433MHz decoding receiver board 
 $ENDCMP
 #
+$CMP Q_NMOS_SSSGD
+D Transistor N-MOSFET LFPAK
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
 $CMP REF30XX
 D High Precision, Low Drift, CMOS Voltage Reference
 K Voltage Reference, Power
