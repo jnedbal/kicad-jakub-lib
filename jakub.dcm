@@ -31,6 +31,11 @@ $CMP 74HCT1G125
 D Single Bus Buffer Gate With 3-State Output
 $ENDCMP
 #
+$CMP 74LVC1G123
+D Single retriggerable Monostable
+K monostable
+$ENDCMP
+#
 $CMP AD8000
 D 1.5 GHz ultrahigh speed op amp
 $ENDCMP
@@ -110,6 +115,12 @@ $CMP LM3480
 D 100-mA, SOT-23, Quasi Low-Dropout Linear Voltage Regulator
 $ENDCMP
 #
+$CMP LM393
+D Dual Voltage Comparator
+K Comp
+F ns/lm193.pdf
+$ENDCMP
+#
 $CMP LMV321
 D Low-Voltage Rail-to-Rail Output Operational Amplifier
 $ENDCMP
@@ -126,6 +137,18 @@ $ENDCMP
 $CMP MCP4728
 D 12-Bit, Quad Digital-to-Analog Converter with EEPROM Memory
 K DAC, EEPROM
+$ENDCMP
+#
+$CMP MCP6541
+D Dual Voltage Comparator
+K Comp
+F ns/lm193.pdf
+$ENDCMP
+#
+$CMP MCP65R41
+D Dual Voltage Comparator
+K Comp
+F ns/lm193.pdf
 $ENDCMP
 #
 $CMP MCP9700
@@ -194,6 +217,11 @@ $CMP TPA301
 D Audio Amplifier
 K 350-mW MONO AUDIO POWER AMPLIFIER
 F tpa301.pdf
+$ENDCMP
+#
+$CMP TPS61041
+D TPS6104x Low-Power DC-DC Boost Converter
+K DC-DC converter, boost converter, power supply
 $ENDCMP
 #
 $CMP TPS78225
