@@ -190,6 +190,11 @@ D Transistor N-MOSFET LFPAK
 K nmos n-mos n-mosfet transistor
 $ENDCMP
 #
+$CMP Q_NPN_EBEC
+D Transistor NPN (general)
+K npn transistor
+$ENDCMP
+#
 $CMP REF30XX
 D High Precision, Low Drift, CMOS Voltage Reference
 K Voltage Reference, Power

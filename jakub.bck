@@ -6,6 +6,11 @@ K NVRAM, SPI, battery
 F 23LVC1024.pdf
 $ENDCMP
 #
+$CMP 74AC11004
+D Hex Inverter
+K ACMOS not inv
+$ENDCMP
+#
 $CMP 74AHCT245
 D Octal BUS Transceivers, 3 State out
 K TTL BUS 3State
@@ -183,6 +188,11 @@ $ENDCMP
 $CMP Q_NMOS_SSSGD
 D Transistor N-MOSFET LFPAK
 K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP Q_NPN_EBEC
+D Transistor NPN (general)
+K npn transistor
 $ENDCMP
 #
 $CMP REF30XX
