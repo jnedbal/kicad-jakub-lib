@@ -41,6 +41,12 @@ D Single retriggerable Monostable
 K monostable
 $ENDCMP
 #
+$CMP 74LVC1T45
+D Dual supply translating transceiver; 3-state
+K Transceiver, buffer, dual voltage
+F http://cache.nxp.com/documents/data_sheet/74LVC_LVCH1T45.pdf
+$ENDCMP
+#
 $CMP AD8000
 D 1.5 GHz ultrahigh speed op amp
 $ENDCMP
@@ -116,6 +122,16 @@ $CMP JMP
 D Virtual jumper to connect different grounds
 $ENDCMP
 #
+$CMP LD
+K laser diode
+$ENDCMP
+#
+$CMP LDFM
+D 500 mA very low drop voltage regulator
+K LDO Regulator
+F www.farnell.com/datasheets/1947271.pdf
+$ENDCMP
+#
 $CMP LM3480
 D 100-mA, SOT-23, Quasi Low-Dropout Linear Voltage Regulator
 $ENDCMP
@@ -128,6 +144,24 @@ $ENDCMP
 #
 $CMP LMV321
 D Low-Voltage Rail-to-Rail Output Operational Amplifier
+$ENDCMP
+#
+$CMP LT3092
+D 200mA 2-Terminal Programmable Current Source
+K Current Source
+F http://cds.linear.com/docs/en/datasheet/3092fb.pdf
+$ENDCMP
+#
+$CMP LT3092_SOT-223
+D 200mA 2-Terminal Programmable Current Source
+K Current Source
+F http://cds.linear.com/docs/en/datasheet/3092fb.pdf
+$ENDCMP
+#
+$CMP LT3092_SOT-23-8
+D 200mA 2-Terminal Programmable Current Source
+K Current Source
+F http://cds.linear.com/docs/en/datasheet/3092fb.pdf
 $ENDCMP
 #
 $CMP LTC4071
@@ -181,6 +215,12 @@ D 16-channel, 12-bit PWM Fm+ I2C-bus LED controller
 F PCA9685.pdf
 $ENDCMP
 #
+$CMP PSSI2021
+D Constant current source in SOT353 package
+K Current source
+F http://www.nxp.com/documents/data_sheet/PSSI2021SAY.pdf
+$ENDCMP
+#
 $CMP PT2272
 D 433MHz decoding receiver board 
 $ENDCMP
@@ -211,12 +251,22 @@ $CMP SN74ALVC164245
 D 16-BIT 2.5-V TO 3.3-V/3.3-V TO 5-V LEVEL-SHIFTING TRANSCEIVER WITH 3-STATE OUTPUTS
 $ENDCMP
 #
+$CMP SRD
+D Diode
+$ENDCMP
+#
 $CMP Si8651
 D LOW POWER SIX-CHANNEL DIGITAL ISOLATOR
 $ENDCMP
 #
 $CMP Si8661
 D LOW POWER SIX-CHANNEL DIGITAL ISOLATOR
+$ENDCMP
+#
+$CMP TCM828
+D Switched Capacitor Voltage Converters
+K Charge Pump
+F http://www.farnell.com/datasheets/630371.pdf
 $ENDCMP
 #
 $CMP TLV2371xDBV
