@@ -247,6 +247,10 @@ K Voltage Reference, Power
 F REF30xx.pdf
 $ENDCMP
 #
+$CMP Rxx-100_150B
+D Innoline DC/DC Converter 5W
+$ENDCMP
+#
 $CMP S25FL032P
 D 32 Mbit SPI FLASH
 K 32-Mbit CMOS 3.0 Volt Flash Memory with 104-MHz SPI (Serial Peripheral Interface) Multi I/O Bus
