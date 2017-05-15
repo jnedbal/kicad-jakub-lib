@@ -168,6 +168,15 @@ $CMP LTC4071
 D Li-Ion/Polymer Shunt Battery Charger System with Low Battery Disconnect
 $ENDCMP
 #
+$CMP MAX1735
+D 200mA, Negative-Output, Low-Dropout Linear Regulator in SOT23
+K REGUL POWER
+$ENDCMP
+#
+$CMP MC100LVEL31
+D 3.3 V ECL D Flip‐Flop with Set and Reset
+$ENDCMP
+#
 $CMP MCP15XX
 D 2.5V and 4.096V Voltage References
 K Voltage Reference, Power
@@ -263,6 +272,15 @@ $ENDCMP
 #
 $CMP SRD
 D Diode
+$ENDCMP
+#
+$CMP SW_DPDT_LAMP
+D AV1921000Q04: Switch, dual pole double throw, lamp
+K switch dual-pole double-throw DPDT spdt ON-ON with lamp
+$ENDCMP
+#
+$CMP SY100ELT23L
+D 3.3V Dual Differential LVPECL-to-LVTTL Translator
 $ENDCMP
 #
 $CMP Si8651
