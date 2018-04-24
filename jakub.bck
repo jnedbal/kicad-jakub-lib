@@ -275,8 +275,8 @@ D Diode
 $ENDCMP
 #
 $CMP SW_DPDT_LAMP
-D Switch, dual pole double throw, separate symbols
-K switch dual-pole double-throw DPDT spdt ON-ON
+D AV1921000Q04: Switch, dual pole double throw, lamp
+K switch dual-pole double-throw DPDT spdt ON-ON with lamp
 $ENDCMP
 #
 $CMP SY100ELT23L
