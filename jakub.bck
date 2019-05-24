@@ -132,6 +132,16 @@ K LDO Regulator
 F www.farnell.com/datasheets/1947271.pdf
 $ENDCMP
 #
+$CMP LDU2430S1000
+D 1000 mA adjustable LED driver
+$ENDCMP
+#
+$CMP LEDdriver
+D Constant current LED driver
+K LED driver DC-DC converter
+F http://www.farnell.com/datasheets/1903665.pdf
+$ENDCMP
+#
 $CMP LM3480
 D 100-mA, SOT-23, Quasi Low-Dropout Linear Voltage Regulator
 $ENDCMP
@@ -237,7 +247,7 @@ F http://www.nxp.com/documents/data_sheet/PSSI2021SAY.pdf
 $ENDCMP
 #
 $CMP PT2272
-D 433MHz decoding receiver board 
+D 433MHz decoding receiver board
 $ENDCMP
 #
 $CMP Q_NMOS_SSSGD
@@ -279,6 +289,12 @@ D AV1921000Q04: Switch, dual pole double throw, lamp
 K switch dual-pole double-throw DPDT spdt ON-ON with lamp
 $ENDCMP
 #
+$CMP SW_Rotary1x6
+D rotary switch with 6 positions
+K rotary switch
+F http://www.farnell.com/datasheets/2604296.pdf
+$ENDCMP
+#
 $CMP SY100ELT23L
 D 3.3V Dual Differential LVPECL-to-LVTTL Translator
 $ENDCMP
@@ -298,7 +314,9 @@ F http://www.farnell.com/datasheets/630371.pdf
 $ENDCMP
 #
 $CMP TLV2371xDBV
-D Rail-to-Rail Output Operational Amplifier
+D +/-33mA Regulated 1W DC/DC converter with 1.5kV isolation, 36V-75V input, +/-15V fixed Output Voltage, SMD
+K Murata isolated isolation dc-dc converter transformer
+F http://assets.tracopower.com/TMR1SM/documents/tmr1sm-datasheet.pdf
 $ENDCMP
 #
 $CMP TPA301
