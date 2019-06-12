@@ -22,6 +22,12 @@ D Hex Bus Driver 3 state Out
 K TTL Buffer BUS 3State
 $ENDCMP
 #
+$CMP 74AUC2G04
+D Dual NOT Gate, Low-Voltage CMOS
+K Dual Gate NOT LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
 $CMP 74HC125
 D Quad buffer 3 State out
 K TTL buffer 3State
@@ -41,10 +47,34 @@ D Single retriggerable Monostable
 K monostable
 $ENDCMP
 #
+$CMP 74LVC1G332
+D Single OR 3 Input Gate, Low-Voltage CMOS
+K Single Gate OR triple LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
 $CMP 74LVC1T45
 D Dual supply translating transceiver; 3-state
 K Transceiver, buffer, dual voltage
 F http://cache.nxp.com/documents/data_sheet/74LVC_LVCH1T45.pdf
+$ENDCMP
+#
+$CMP 74LVC2G04
+D Dual NOT Gate, Low-Voltage CMOS
+K Dual Gate NOT LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC3G04
+D Triple NOT Gate, Low-Voltage CMOS
+K Triple Gate NOT LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC3GU04
+D 74LVC3G04, Triple NOT Gate, Low-Voltage CMOS
+K Triple Gate NOT LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
 $CMP AD8000
@@ -282,6 +312,10 @@ $ENDCMP
 #
 $CMP SRD
 D Diode
+$ENDCMP
+#
+$CMP SW_DP4T
+F https://www.ckswitches.com/media/1423/l.pdf
 $ENDCMP
 #
 $CMP SW_DPDT_LAMP
