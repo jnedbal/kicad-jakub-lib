@@ -53,6 +53,12 @@ K Single Gate OR triple LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
+$CMP 74LVC1G80
+D Single D Flip-Flop Inverted Output, Low-Voltage CMOS
+K Single D Flip-Flop CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
 $CMP 74LVC1T45
 D Dual supply translating transceiver; 3-state
 K Transceiver, buffer, dual voltage
