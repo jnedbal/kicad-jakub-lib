@@ -87,6 +87,12 @@ $CMP AD8000
 D 1.5 GHz ultrahigh speed op amp
 $ENDCMP
 #
+$CMP ADA4817-1
+D Low Noise, 1 GHz FastFET Op Amps, SO-8
+K single opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4817-1_4817-2.pdf
+$ENDCMP
+#
 $CMP ADG849
 D SPDT analog switch
 K analog switch, audio
@@ -251,6 +257,12 @@ K Current Source
 F http://cds.linear.com/docs/en/datasheet/3092fb.pdf
 $ENDCMP
 #
+$CMP LTC1865-MS
+D Dual channel 16-bit Analog to Digital Converter, 5V supply, 150ksps, SPI interface
+K sigma-delta adc 2ch
+F https://www.analog.com/media/en/technical-documentation/data-sheets/18645fb.pdf
+$ENDCMP
+#
 $CMP LTC4071
 D Li-Ion/Polymer Shunt Battery Charger System with Low Battery Disconnect
 $ENDCMP
@@ -264,9 +276,20 @@ $CMP MC100LVEL31
 D 3.3 V ECL D Flip‐Flop with Set and Reset
 $ENDCMP
 #
+$CMP MCP1501
+D High-Precision Buffered Voltage Reference
+F https://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
+$ENDCMP
+#
 $CMP MCP15XX
 D 2.5V and 4.096V Voltage References
 K Voltage Reference, Power
+$ENDCMP
+#
+$CMP MCP331x1
+D 1 Msps/500 kSPS 16/14/12-Bit Differential Input SARADC
+K sigma-delta adc 1ch
+F https://ww1.microchip.com/downloads/en/DeviceDoc/MCP33131D-Data-Sheet-DS20005947B.pdf
 $ENDCMP
 #
 $CMP MCP4728
@@ -325,6 +348,12 @@ $ENDCMP
 #
 $CMP PT2272
 D 433MHz decoding receiver board
+$ENDCMP
+#
+$CMP QRD1114
+D Subminiature Reflective Optical Sensor
+K Reflective Optical Sensor Opto
+F http://www.kingbright.com/attachments/file/psearch/000/00/00/KRC011(Ver.15).pdf
 $ENDCMP
 #
 $CMP Q_DUAL_NMOS_PMOS_G1S2G2D2S1D1
