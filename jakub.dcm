@@ -439,6 +439,12 @@ K Charge Pump
 F http://www.farnell.com/datasheets/630371.pdf
 $ENDCMP
 #
+$CMP THS4551
+D Differential, High-Speed, Op Amp, VSSOP-8
+K differential opamp operational amplifier
+F https://www.ti.com/lit/ds/symlink/ths4551.pdf
+$ENDCMP
+#
 $CMP TLV2371xDBV
 D +/-33mA Regulated 1W DC/DC converter with 1.5kV isolation, 36V-75V input, +/-15V fixed Output Voltage, SMD
 K Murata isolated isolation dc-dc converter transformer
@@ -490,6 +496,10 @@ $CMP XPPOWER_8W
 D 8W DC-DC converter from XP Power
 K DC-DC converter
 F SF_JCJ08-10.pdf
+$ENDCMP
+#
+$CMP XPPOWER_ISE
+D 1W isolated DC-DC converter
 $ENDCMP
 #
 #End Doc Library
