@@ -297,6 +297,12 @@ D 12-Bit, Quad Digital-to-Analog Converter with EEPROM Memory
 K DAC, EEPROM
 $ENDCMP
 #
+$CMP MCP48CVB02
+D 2-Channel 8-Bit D/A Converters with SPI Interface
+K 8-Bit DAC SPI  2ch
+F https://www.mouser.co.uk/datasheet/2/268/MCP48CXBXX-Data-Sheet-DS20006160A-1774111.pdf
+$ENDCMP
+#
 $CMP MCP6541
 D Dual Voltage Comparator
 K Comp
@@ -333,6 +339,12 @@ $ENDCMP
 $CMP NMLxxxxSC
 D Isolated 2W Single Output DC/DC Converters
 K DC-DC converter
+$ENDCMP
+#
+$CMP OPA728
+D e-trim™20MHz High Precision CMOS Operational Amplifier
+K single opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/OP07.pdf
 $ENDCMP
 #
 $CMP PCA9685
@@ -496,6 +508,10 @@ $CMP XPPOWER_8W
 D 8W DC-DC converter from XP Power
 K DC-DC converter
 F SF_JCJ08-10.pdf
+$ENDCMP
+#
+$CMP XPPOWER_ISE
+D 1W isolated DC-DC converter
 $ENDCMP
 #
 #End Doc Library
